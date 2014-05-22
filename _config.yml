@@ -1,0 +1,22 @@
+name: "blog.mars3142.de"
+description: "Blog of mars3142."
+
+#url: "blog://blog.mars3142.de"
+url: ""
+
+#paginate: 10
+
+markdown: redcarpet
+markdown_ext: markdown,mkdown,mkdn,mkd,md
+#permalink: pretty
+highlighter: pygments
+
+safe: true
+lsi: false
+
+github:
+    project_title: "blog"
+    project_tagline: "Blog of mars3142"
+
+redcarpet:
+    extensions: ["autolink"]
