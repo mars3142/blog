@@ -2,6 +2,8 @@
 title: Willkommen
 layout: default
 ---
+Willkommen
+---
 Hier entsteht mein Blog...
 
 <ul>
