@@ -1,8 +1,7 @@
 name: "blog.mars3142.de"
 description: "Blog of mars3142."
 
-#url: "blog://blog.mars3142.de"
-url: ""
+url: "http://blog.mars3142.de"
 
 #paginate: 10
 
