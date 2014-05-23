@@ -1,16 +1,29 @@
 ---
 title: Willkommen
 layout: default
+full_posts: 5
 ---
 
 Willkommen
 ---
-Hier entsteht mein Blog...
-
-<ul>
-  {% for post in site.posts %}
-    <li>
-      {{ post.date | date_to_string }} - <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
-  {% endfor %}
-</ul>
+{% for post in site.posts %}
+  {% if forloop.index < page.full_posts %}
+  <div class='post'>
+    <span class='date'>{{post.date | date_to_string}}</span>
+    <h1><a href='{{post.url}}'>{{post.title}}</a></h1>
+    <div class='body'>{{post.content}}</div>
+    <a href='{{post.url}}#disqus_thread'>View Comments</a>
+  </div>
+  {% else %}
+    {% if forloop.index == page.full_posts %}
+    <h3>Older Posts</h3>
+    <table class='post-list'>
+    {% endif %}
+    <tr>
+      <th><a href='{{ post.url }}'>{{ post.title }}</a></th>
+      <td>{{ post.date | date_to_string }}</td>
+      <td><a href='{{post.url}}#disqus_thread'>Comments</a></td>
+    </tr>
+  {% endif %}
+</table>
+{% endfor %}
