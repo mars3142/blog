@@ -1,5 +1,5 @@
 ---
-title: erster Beitrag
+title: First post
 layout: post
 ---
 This is my first post in my new blog, which is hosted on github.
