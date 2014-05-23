@@ -11,6 +11,8 @@ markdown_ext: markdown,mkdown,mkdn,mkd,md
 #permalink: pretty
 highlighter: pygments
 
+exclude: ['CNAME', 'README.md']
+
 safe: true
 lsi: false
 
