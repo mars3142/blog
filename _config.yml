@@ -3,8 +3,8 @@ description: "Blog of mars3142."
 
 url: "http://blog.mars3142.de"
 
-paginate: 5
-paginate_path: "page:num"
+#paginate: 5
+#paginate_path: "page:num"
 
 markdown: redcarpet
 markdown_ext: markdown,mkdown,mkdn,mkd,md
