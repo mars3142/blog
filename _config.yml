@@ -8,6 +8,7 @@ url: "http://blog.mars3142.org"
 
 markdown: redcarpet
 markdown_ext: markdown,mkdown,mkdn,mkd,md
+
 #permalink: pretty
 highlighter: pygments
 
@@ -21,4 +22,10 @@ github:
     project_tagline: "Blog of mars3142"
 
 redcarpet:
-    extensions: ["autolink"]
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
+
+gems:
+- jekyll-mentions
+- jemoji
+- jekyll-redirect-from
+- jekyll-sitemap
