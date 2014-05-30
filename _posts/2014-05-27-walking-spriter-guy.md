@@ -9,6 +9,6 @@ if everything works correctly together.
 
 <iframe width="560" height="420" src="//www.youtube.com/embed/cl8G6Selj9k?color=white&theme=light\"></iframe>
 
-As you can see, I used the **Gray Guy** from [Spine](//esotericsoftware.com/). In the background I 
+As you can see, I used the **Gray Guy** from [Spriter](//www.brashmonkey.com/spriter.htm). In the background I 
 use [ashley](https://github.com/stbachmann/ashley) as Entity framework and [libgdx](//libgdx.badlogicgames.com) 
 as game framework. 
