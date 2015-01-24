@@ -14,7 +14,7 @@ highlighter: pygments
 
 exclude: ['CNAME', 'README.md']
 
-safe: true
+#safe: true
 lsi: false
 
 github:
