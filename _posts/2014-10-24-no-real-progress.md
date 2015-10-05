@@ -1,6 +1,8 @@
 ---
 title: No real progress
 layout: post
+description: "I just wanted to write something about **Logistics**, but I have no progress to show"
+header: header-progress.jpg
 ---
 I just wanted to write something new about **Logistics**, but I have no progress to show.
 

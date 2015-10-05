@@ -1,27 +1,22 @@
 ---
 title: Blog
 layout: default
-full_posts: 5
 ---
 
 {% for post in site.posts %}
-  {% if forloop.index < page.full_posts %}
-  <div class='post'>
-    <span class='date'>{{post.date | date_to_string}}</span>
-    <h1><a href='{{post.url}}'>{{post.title}}</a></h1>
-    <div class='body'>{{post.content}}</div>
-    <a href='{{post.url}}#comments'>View Comments</a>
+  <div class="mdl-card mdl-cell mdl-cell--12-col">
+    <div class="mdl-card__media mdl-color-text--grey-50" style="background-image: url('/images/{{ post.header }}')">
+      <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
+    </div>
+    <div class="mdl-color-text--grey-600 mdl-card__supporting-text">
+      {{ post.description }}
+    </div>
+    <div class="mdl-card__supporting-text meta mdl-color-text--grey-600">
+      <div class="minilogo"></div>
+      <div>
+        <strong>Date created</strong>
+        <span>{{ post.date | date_to_string }}</span>
+      </div>
+    </div>
   </div>
-  {% else %}
-    {% if forloop.index == page.full_posts %}
-    <h3>Older Posts</h3>
-    <table class='post-list'>
-    {% endif %}
-    <tr>
-      <th><a href='{{ post.url }}'>{{ post.title }}</a></th>
-      <td>{{ post.date | date_to_string }}</td>
-      <td><a href='{{post.url}}#comments'>Comments</a></td>
-    </tr>
-  {% endif %}
-</table>
 {% endfor %}
