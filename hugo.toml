@@ -22,7 +22,7 @@ home = ["HTML", "RSS", "Algolia"]
   header_image = "img/home-bg-flutter.jpg"
   SEOTitle = "mars3142 Blog"
   description = ""
-  keyword = ""
+  keyword = "ESP32, STM32, 3D Printing, Godot"
   slogan = ""
   upstreamAttribution = true
 
