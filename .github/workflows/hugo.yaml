@@ -27,8 +27,8 @@ jobs:
         with:
           source_branch: "main"
           release_branch: "gh-pages"
+          full_rebuild: true
           # submodule_release_branch: 'subbed' <<only provide if you are publishing to directory with git submodule>>
-          # full_rebuild: true
           # hugo_publish_directory: 'documents'   <<publish to another directory if needed>>
           # hugo_build_options: '-D --minify --ignoreCache' <<hugo build cis customizable>>
           # commit_message: "I love this action."
