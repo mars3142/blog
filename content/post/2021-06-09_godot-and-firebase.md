@@ -5,6 +5,7 @@ subtitle: "Login with Username/Password"
 date: 2021-06-09
 author: "mars3142"
 URL: "/2021/06/09/godot-and-firebase/"
+image: "/img/2021/06/09/godot-and-firebase/godot_source_code.webp"
 categories: [godot]
 tags:
   - tutorial
